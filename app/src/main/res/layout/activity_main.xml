@@ -12,23 +12,21 @@
     tools:context=".MainActivity">
 
      <TextView
-        android:text="App 2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
          android:layout_marginRight="50dp"
-        android:textSize="45dp"
-        android:gravity="center"
-        android:textColor="#ffffff"
-        />
+         android:gravity="center"
+         android:text="App B"
+         android:textColor="#ffffff"
+         android:textSize="45dp" />
 
      <Button
-        android:id="@+id/button"
-        android:layout_width="250dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="25dp"
-        android:gravity="center_horizontal"
-        android:onClick="buttonclick"
-        android:text="Start activity in app 1"
-        />
+         android:id="@+id/button"
+         android:layout_width="250dp"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="25dp"
+         android:gravity="center_horizontal"
+         android:onClick="buttonclick"
+         android:text="Start activity 2 in app A" />
 
 </LinearLayout>
